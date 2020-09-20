@@ -1,0 +1,12 @@
+type Usuarios @model {
+  id: ID!
+  name: String!
+  mensaje: [Mensajes] @connection(keyName: "byMensajes", fields: ["id"])
+}
+
+type Mensajes @key(name: "byMensajes", fields: ["idUsuario"]) @model {
+  id: ID!
+  idUsuario: ID!
+  usuario: Usuarios @connection(fields: ["idUsuario"])
+  mensaje: String!
+}

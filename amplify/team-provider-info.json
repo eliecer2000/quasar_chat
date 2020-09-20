@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-quasarchat-dev-102734-authRole",
+            "UnauthRoleArn": "arn:aws:iam::628221610905:role/amplify-quasarchat-dev-102734-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::628221610905:role/amplify-quasarchat-dev-102734-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-quasarchat-dev-102734-deployment",
+            "UnauthRoleName": "amplify-quasarchat-dev-102734-unauthRole",
+            "StackName": "amplify-quasarchat-dev-102734",
+            "StackId": "arn:aws:cloudformation:us-west-2:628221610905:stack/amplify-quasarchat-dev-102734/d02c7d70-fb55-11ea-830c-025082295a9a",
+            "AmplifyAppId": "d2ppv1r8jgv01s"
+        }
+    }
+}
